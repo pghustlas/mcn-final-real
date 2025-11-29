@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 import LocoLogo from "../../imports/LocoLogo";
- import imgAsset from "../../assets/c730c5bda36c78a0c16dfaad462cb2b1b9bcf31e.png";
+// import heroBg from "figma:asset/c730c5bda36c78a0c16dfaad462cb2b1b9bcf31e.png";
+const heroBg = "https://images.unsplash.com/photo-1758613655976-e8c8f85849a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWwlMjBzdHVkaW8lMjBjbGVhbiUyMHNpbXBsZSUyMGJhY2tncm91bmR8ZW58MXx8fHwxNzY0NDQzODU4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
 
 export const Hero = () => {
   const ref = useRef(null);
