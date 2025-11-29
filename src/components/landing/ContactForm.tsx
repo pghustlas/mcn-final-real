@@ -7,7 +7,7 @@ import { RadioGroup, RadioGroupItem } from "../ui/radio-group";
 import { motion } from "motion/react";
 import { Send, CheckCircle2, Loader2 } from "lucide-react";
 import { projectId, publicAnonKey } from "../../utils/supabase/info";
-import { toast } from "sonner@2.0.3";
+ import { toast } from "sonner";
 
 export const ContactForm = () => {
   const [submitted, setSubmitted] = React.useState(false);
