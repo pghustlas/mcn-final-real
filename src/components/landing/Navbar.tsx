@@ -34,7 +34,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <a href="#" className="flex items-center gap-1">
-          {/* Logo container with corrected aspect ratio (approx 1.54:1) */}
+          {/* Logo container with corrected aspect ratio */}
           <div className="w-[180px] h-10 relative">
              <LocoLogo />
           </div>

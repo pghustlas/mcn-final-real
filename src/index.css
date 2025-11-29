@@ -752,10 +752,6 @@
     width: 66%;
   }
 
-  .w-\[74px\] {
-    width: 74px;
-  }
-
   .w-\[90\%\] {
     width: 90%;
   }
@@ -766,6 +762,10 @@
 
   .w-\[98px\] {
     width: 98px;
+  }
+
+  .w-\[180px\] {
+    width: 180px;
   }
 
   .w-\[600px\] {
@@ -816,10 +816,6 @@
   .-translate-y-1\/2 {
     --tw-translate-y: calc(calc(1 / 2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-
-  .scale-\[2\] {
-    scale: 2;
   }
 
   .transform {

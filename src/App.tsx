@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "./components/landing/Navbar";
-import { Hero } from "./components/landing/Hero";
+import { HeroV2 as Hero } from "./components/landing/HeroV2";
 import { Stats } from "./components/landing/Stats";
 import { GrowthSystem } from "./components/landing/GrowthSystem";
 import { BusinessSolution } from "./components/landing/BusinessSolution";
