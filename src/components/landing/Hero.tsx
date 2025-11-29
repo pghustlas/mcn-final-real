@@ -1,7 +1,10 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 import LocoLogo from "../../imports/LocoLogo";
-const heroBg = "/hero-bg.jpg"; 
+
+// 👇 여기가 핵심입니다! 아까 바꾼 파일 이름(bg-final.jpg)과 똑같아야 합니다.
+// (public 폴더에 bg-final.jpg 파일이 있어야 합니다)
+const heroBg = "/bg-final.jpg";
 
 export const Hero = () => {
   const ref = useRef(null);
@@ -41,8 +44,8 @@ export const Hero = () => {
         className="relative z-10 w-full max-w-5xl px-6"
       >
         {/* Responsive Aspect Ratio: 
-            - Mobile: Allow flexible height for stacked logo
-            - Desktop: Enforce exact aspect ratio of the original design
+Mobile: Allow flexible height for stacked logo
+Desktop: Enforce exact aspect ratio of the original design
         */}
         <div className="w-full min-h-[300px] md:min-h-0 md:aspect-[461/103]">
           <LocoLogo />
