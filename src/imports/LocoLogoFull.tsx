@@ -3,7 +3,7 @@ import svgPaths from "./svg-a5hkx5uful";
 export default function LocoLogo() {
   return (
     <div className="relative size-full" data-name="_레이어_1">
-      <svg className="block size-full scale-[2]" fill="none" viewBox="0 0 461 96">
+      <svg className="block size-full" fill="none" viewBox="0 0 461 96">
         <g clipPath="url(#clip0_33_861)" id="_ë ì´ì´_1">
           <path d={svgPaths.pb81d700} fill="var(--fill-0, #B8292D)" id="Vector" />
           <path d={svgPaths.p28718100} fill="var(--fill-0, #B8292D)" id="Vector_2" />
