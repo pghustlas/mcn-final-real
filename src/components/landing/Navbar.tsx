@@ -35,7 +35,7 @@ export const Navbar = () => {
         {/* Logo */}
         <a href="#" className="flex items-center gap-1">
           {/* Logo container with corrected aspect ratio (approx 1.54:1) */}
-          <div className="w-[74px] h-12 relative">
+          <div className="w-[180px] h-10 relative">
              <LocoLogo />
           </div>
         </a>
